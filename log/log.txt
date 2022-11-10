@@ -1,0 +1,451 @@
+2022-11-10 11:40:22,110 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:40:22,160 INFO c.e.p.e.TestReporterExtension [main] Starting test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:40:23,680 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Patience",
+    "lastName": "Lind",
+    "address": "4484 Jordan Lane, North Janay, CA 24822-4644",
+    "city": "Port Willianstad",
+    "telephone": "3685847"
+}
+
+HTTP/1.1 404 Not Found
+drill-agent-id: medium1Tomcat
+drill-admin-url: medium4:8090
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:40:23 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:40:23,701 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:42:51,793 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:42:51,845 INFO c.e.p.e.TestReporterExtension [main] Starting test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:42:52,328 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:43:52,322 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:43:52,372 INFO c.e.p.e.TestReporterExtension [main] Starting test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:43:53,808 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Odis",
+    "lastName": "Murray",
+    "address": "Suite 014 700 Heaney Forges, Pamulaberg, MA 24264",
+    "city": "Braunchester",
+    "telephone": "34986167"
+}
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:43:53 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:43:53,829 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreateOwnerTest/shouldCreateOwner()
+2022-11-10 11:50:52,746 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:50:52,797 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 11:50:54,227 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Wayne",
+    "lastName": "Aufderhar",
+    "address": "Apt. 071 5233 Lueilwitz Mountains, East Tracy, AK 81107",
+    "city": "Jacobitown",
+    "telephone": "04647401"
+}
+
+HTTP/1.1 404 Not Found
+drill-agent-id: medium1Tomcat
+drill-admin-url: medium4:8090
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:50:54 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:50:54,245 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:06,442 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:51:06,492 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:07,873 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Genoveva",
+    "lastName": "Schulist",
+    "address": "Suite 872 5018 Ina Court, New Avriltown, UT 16158-7870",
+    "city": "Saulstad",
+    "telephone": "28063450"
+}
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:51:07 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:51:07,893 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:31,042 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:51:31,091 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:32,455 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Merle",
+    "lastName": "Kemmer",
+    "address": "Apt. 894 731 Toby Terrace, East Melyndafort, MN 02685",
+    "city": "West Wilfredville",
+    "telephone": "33305118"
+}
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:51:32 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:51:32,475 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:36,256 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:51:36,305 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 11:51:37,656 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Elmo",
+    "lastName": "Murphy",
+    "address": "Suite 456 49566 Leffler Canyon, Port Lavone, GA 86949-5005",
+    "city": "Port Leighside",
+    "telephone": "1702243"
+}
+
+HTTP/1.1 404 Not Found
+drill-agent-id: medium1Tomcat
+drill-admin-url: medium4:8090
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:51:37 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:51:37,677 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
+2022-11-10 11:52:35,274 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 11:52:35,323 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 11:52:36,686 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Magdalen",
+    "lastName": "Ferry",
+    "address": "Apt. 553 6329 Irma Plains, Millsmouth, KY 34700",
+    "city": "Lake Oma",
+    "telephone": "80383044"
+}
+
+HTTP/1.1 404 Not Found
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 09:52:36 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 11:52:36,706 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
+2022-11-10 12:35:40,628 INFO c.e.p.e.TestReporterExtension [main] Starting tests on env qa
+2022-11-10 12:35:40,678 INFO c.e.p.e.TestReporterExtension [main] Starting test CreatePetTest/shouldCreatePet()
+2022-11-10 12:35:42,073 INFO c.e.p.f.LogFilter [main] Request method:	POST
+Request URI:	http://bhdtest.endava.com:8080/petclinic/api/owners
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": null,
+    "firstName": "Anthony",
+    "lastName": "Hayes",
+    "address": "Apt. 875 4804 Maude Manor, New Rickietown, MA 01077",
+    "city": "North Kiley",
+    "telephone": "58001409"
+}
+
+HTTP/1.1 404 Not Found
+drill-agent-id: medium1Tomcat
+drill-admin-url: medium4:8090
+Server: Apache-Coyote/1.1
+Content-Type: text/html;charset=utf-8
+Content-Language: en
+Content-Length: 991
+Date: Thu, 10 Nov 2022 10:35:41 GMT
+
+<html>
+  <head>
+    <title>Apache Tomcat/7.0.76 - Error report</title>
+    <style>&lt;!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--&gt;</style>
+  </head>
+  <body>
+    <h1>HTTP Status 404 - /petclinic/api/owners</h1>
+    <hr noshade="noshade" size="1"/>
+    <p>
+      <b>type</b>
+ Status report    </p>
+    <p>
+      <b>message</b>
+      <u>/petclinic/api/owners</u>
+    </p>
+    <p>
+      <b>description</b>
+      <u>The requested resource is not available.</u>
+    </p>
+    <hr noshade="noshade" size="1"/>
+    <h3>Apache Tomcat/7.0.76</h3>
+  </body>
+</html>
+
+2022-11-10 12:35:42,095 INFO c.e.p.e.TestReporterExtension [main] Finishing test CreatePetTest/shouldCreatePet()
